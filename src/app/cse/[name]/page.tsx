@@ -1,11 +1,10 @@
-import Link from 'next/link';
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-  } from "@/components/ui/accordion"
-import { Computer } from 'lucide-react';
+} from "@/components/ui/accordion";
+import Link from 'next/link';
   
 export default function UserProfile({params}: any){
     return(
@@ -20,7 +19,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-1">
                         <AccordionTrigger>Unit -1</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="/public/CN-1.pdf" target="_blank" download="unit-1.pdf">
+                         <Link href="CN-1.pdf" target="_blank" download="unit-1.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
