@@ -48,10 +48,10 @@ const Navbar: React.FC = () => {
                 </div>
               </div>
             </div>
-            <Link href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <Link href="/#about" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               About Us
             </Link>
-            <Link href="#contact" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+            <Link href="/#contact" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
               Contact
             </Link>
           </div>
