@@ -42,7 +42,7 @@ const page = () => {
     <div className="bg-black w-full h-[90vh] flex flex-grow relative justify-center align-middle">
       <div className="flex flex-col items-center justify-center w-full  gap-10">
         <h1 className="text-6xl font-bold text-white">Computer Science and Engineering</h1>
-        <p className="text-xl text-white">Find notes, contact us, and read our blog</p>
+        <p className="text-xl text-white">Find notes, study</p>
         <div className="flex lg:flex-row flex-wrap items-center justify-center gap-10">
           {csesubjects.map((subject) => (
             <div key={subject.id} className="hover:scale-[1.1] hover:bg-cyan-500 transition-all w-[25rem] h-[25rem] align-middle  content-center">

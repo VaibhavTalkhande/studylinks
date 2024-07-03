@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="min-w-full m-0 fixed z-30">
-      <div className="flex min-w-full flex-row items-center justify-between flex-wrap bg-gray-800 p-6">
+      <div className="flex min-w-full flex-row items-center justify-between flex-wrap bg-slate-900 p-6">
         <div className="flex w-1/3 items-center flex-shrink-0 text-white">
           <Link href="/">
             <span className="font-semibold text-xl tracking-tight cursor-pointer">StudyLinks</span>
@@ -30,13 +30,10 @@ const Navbar: React.FC = () => {
             </svg>
           </button>
         </div>
-        <div className={`w-full ${menuOpen ? 'block' : 'hidden'} flex-grow lg:flex lg:items-center lg:w-auto`}>
-          <div className="text-sm lg:flex-grow">
-            <Link href="#notes" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-              Notes
-            </Link>
+        <div className={`w-full ${menuOpen ? 'block' : 'hidden'} flex-grow w-[80%] justify-between lg:flex lg:items-center lg:w-auto`}>
+          <div className=" lg:flex-grow gap-5 flex ">
             <div className="relative inline-block text-left mt-4 lg:mt-0 mr-4">
-              <button onClick={toggleDropdown} className="inline-flex justify-center w-full text-sm font-medium text-white hover:text-white focus:outline-none">
+              <button onClick={toggleDropdown} className="inline-flex justify-center w-full font-medium text-white hover:text-white focus:outline-none">
                 Engineering Branches
                 <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fillRule="evenodd" d="M5.293 9.293a1 1 0 011.414 0L10 12.586l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
