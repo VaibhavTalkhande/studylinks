@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
-      <section className="relative w-full h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("hero.jpg")' }}>
+      <section className="relative w-full h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("/hero.jpg")' }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white">
           <h1 className="text-5xl font-bold">Welcome to StudyLinks</h1>

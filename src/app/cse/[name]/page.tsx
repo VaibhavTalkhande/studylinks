@@ -19,7 +19,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-1" >
                         <AccordionTrigger>Unit -1</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="CN-1.pdf" target="_blank" download="unit-1.pdf">
+                         <Link href="/CN-1.pdf" target="_blank" download="unit-1.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
@@ -27,7 +27,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-2">
                         <AccordionTrigger>Unit -2</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="CN-2.pdf" target="_blank" download="unit-2.pdf">
+                         <Link href="/CN-2.pdf" target="_blank" download="unit-2.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
@@ -35,7 +35,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-3">
                         <AccordionTrigger>Unit -3</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="CN-3.pdf" target="_blank" download="unit-3.pdf">
+                         <Link href="/CN-3.pdf" target="_blank" download="unit-3.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
@@ -43,7 +43,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-4">
                         <AccordionTrigger>Unit -4</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="CN-4.pdf" target="_blank" download="unit-4.pdf">
+                         <Link href="/CN-4.pdf" target="_blank" download="unit-4.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
@@ -51,7 +51,7 @@ export default function UserProfile({params}: any){
                     <AccordionItem value="item-5">
                         <AccordionTrigger>Unit -5</AccordionTrigger>
                         <AccordionContent>
-                         <Link href="CN-5.pdf" target="_blank" download="unit-5.pdf">
+                         <Link href="/CN-5.pdf" target="_blank" download="unit-5.pdf">
                           <span className="text-blue-500">Download notes</span>
                          </Link>
                         </AccordionContent>
